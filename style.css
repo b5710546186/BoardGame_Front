@@ -7829,7 +7829,7 @@ ul.submenu li a {
 /* 22.0.0 Blog CSS
 /*----------------------------------------*/
 .blog_banner_area{
-    background: url(img/banner_bg.jpg)no-repeat scroll 0 0;
+    background: url(img/banner_bg.png)no-repeat scroll 0 0;
     height: 200px;
     margin-bottom: 50px;
 }
