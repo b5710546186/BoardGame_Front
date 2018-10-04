@@ -1,4 +1,4 @@
-# BoardGameStore - BackEnd
+# BoardGameStore - FrontEnd
 ###### Currently at iteration 1
 
 ## Members
