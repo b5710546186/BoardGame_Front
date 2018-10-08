@@ -26,7 +26,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700,600' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Roboto:500' rel='stylesheet' type='text/css'>   
+		<link href='https://fonts.googleapis.com/css?family=Roboto:500' rel='stylesheet' type='text/css'>  
 		
 		<!-- Bootstrap CSS
 		============================================ -->      
@@ -42,12 +42,15 @@
         <link rel="stylesheet" href="css/owl.carousel.css">
         
 		<!-- owl.theme CSS
-		============================================ -->      
+		============================================ -->  
         <link rel="stylesheet" href="css/owl.theme.css">
            	
 		<!-- owl.transitions CSS
 		============================================ -->      
         <link rel="stylesheet" href="css/owl.transitions.css">
+         
+   	    <!--lightbox CSS-->
+        <link href="css/lightbox.css" rel="stylesheet">
         
    	    <!--Jquery Ui CSS-->
         <link href="css/jquery-ui.css" rel="stylesheet">
@@ -89,7 +92,7 @@
         
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body class="checkout">
+    <body class="wishlist">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -103,7 +106,7 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-9">
                             <div class="logo">
-                                <a href="index.html"><img src="img/logo web v1.png" alt="HUGE"height="50%" width="50%"></a>
+                                <a href="index.html"><img src="img/logo web v1.png" alt="HUGE" height="50%" width="50%"></a>
                             </div>
                         </div>
                         <div class="col-lg-7 col-md-7 d-none d-lg-block">
@@ -142,7 +145,7 @@
                         <div class="col-lg-2 col-md-3 ">
                             <div class="search_cart_sub_menu text-right">
                                 <ul>
-                                   
+        
                                     <li class="drop active mini_bar"><a href="#"><i class="fa fa-bars"></i></a>
                                         <ul class="sub-menu">
                                             <li><a href="">Contact</a></li>
@@ -207,71 +210,71 @@
                                             </ul>
                                         </div>
                                     </li>
-                                    
+        
                                     <li class="search_menu">
                                         <img id="toggle-search" src="img/header_search.png" alt="search">
                                     </li>
                                 </ul>
                             </div>
-                        </div>   
+                        </div>
                     </div>
                 </div>
                 <div class="search">
                     <div class="container">
-                         <div class="row">
+                        <div class="row">
                             <div class="col-lg-6 col-md-6 offset-md-6">
                                 <div class="search-form">
-                                    <form id="search-form"  action="#">
+                                    <form id="search-form" action="#">
                                         <input type="search" placeholder="Search product..." name="s" />
                                         <input class="fa fa-search" type="submit" value="" />
-                                    </form>                                
+                                    </form>
                                 </div>
                             </div>
-                        </div>                    
-                    </div>
-                </div>    
-            <!-- Mobile Menu Area start -->
-            <div class="mobile-menu-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12">
-                            <div class="mobile-menu">
-                                <nav id="dropdown">
-                                    <ul>
-                                        <li><a href="index.html">HOME</a>
-                                        </li>
-                                        <li><a href="">GAMES</a>
-                                            <ul>
-                                                <li><a href="">Strategy</a></li>
-                                                <li><a href="">party</a></li>
-                                                <li><a href="">Thematic</a></li>
-                                                <li><a href="">Family</a></li>
-                                                <li><a href="">Children</a></li>
-                                                <li><a href="">All Games</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="">ACCESSORIES</a>
-                                            <ul>
-                                                <li><a href="">Dice Bags</a></li>
-                                                <li><a href="">Dice Sets</a></li>
-                                                <li><a href="">Playmats</a></li>
-                                                <li><a href="">All Accessories</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="">SALES</a>
-                                        </li>
-                                        <li><a href="">ABOUT</a>
-                                        </li>
-                                        <li class="contact"><a href="">CONTACT</a></li>
-                                    </ul>
-                                </nav>
-                            </div>					
                         </div>
                     </div>
                 </div>
+                <!-- Mobile Menu Area start -->
+                <div class="mobile-menu-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="mobile-menu">
+                                    <nav id="dropdown">
+                                        <ul>
+                                            <li><a href="index.html">HOME</a>
+                                            </li>
+                                            <li><a href="">GAMES</a>
+                                                <ul>
+                                                    <li><a href="">Strategy</a></li>
+                                                    <li><a href="">party</a></li>
+                                                    <li><a href="">Thematic</a></li>
+                                                    <li><a href="">Family</a></li>
+                                                    <li><a href="">Children</a></li>
+                                                    <li><a href="">All Games</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="">ACCESSORIES</a>
+                                                <ul>
+                                                    <li><a href="">Dice Bags</a></li>
+                                                    <li><a href="">Dice Sets</a></li>
+                                                    <li><a href="">Playmats</a></li>
+                                                    <li><a href="">All Accessories</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="">SALES</a>
+                                            </li>
+                                            <li><a href="">ABOUT</a>
+                                            </li>
+                                            <li class="contact"><a href="">CONTACT</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mobile Menu Area end -->
             </div>
-            <!-- Mobile Menu Area end -->
-        </div>    
         </header>
         <!-- header end -->
         <!-- banner start -->
@@ -280,67 +283,93 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="page_title">
-                            <h2>Login/Register</h2>
+                            <h2>MY WISHLIST</h2>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- banner end -->
-        <!-- register start -->
-        <div class="register_area">
+        <!-- cart start -->
+        <div class="cart_area">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <div class="register_customer">
-                            <h2 class="register_heading">Registered Customer</h2>
-                            <p>You can login with social networks</p>
-                            <div class="social_login clearfix">
-                                <a class="facebook" href="#"><i class="fa fa-facebook"></i>Sign in with Facebook</a>
-                            </div>
-                            <form action="#">
-                                <p>Email Address<span> * </span><br>
-                                    <input type="text">
-                                </p>
-                                <p>Password<span> * </span><br>
-                                    <input type="text">
-                                </p>
-                                <!-- <div class="row">
-                                    <p class="col-sm-6 col-xs-12">
-                                         <input type="checkbox">Remember Me
-                                    </p>
-                                    <p class="col-sm-6 col-xs-12">
-                                        <a href="#">Forgot your Password?</a>
-                                    </p>
-                                </div> -->
-                                <input type="submit" value="LOGIN">
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="register_customer">
-                            <h2 class="register_heading">Creat a new account</h2>
-                            <form action="#">
-                                <p>Username<span> * </span><br>
-                                    <input type="text">
-                                </p>
-                                <p>Email<span> * </span><br>
-                                    <input type="text">
-                                </p>
-                                <p>Password<span> * </span><br>
-                                    <input type="text">
-                                </p>
-                                <p>Re-Password<span> * </span><br>
-                                    <input type="text">
-                                </p>
-                                <input type="submit" value="REGISTER">
-                            </form>
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="cart_list table-responsive">
+                            <table class="table_cart table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th class="product">Item</th>
+                                        <th class="description">Description</th>
+                                        <th class="unit_price">Unit Price</th>
+                                        <th class="quantity">Quantity</th>
+                                        <th class="value">Subtotal</th>
+                                        <th class="cart">Add to cart</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="product_img single_slider_bottom"><a href="#"><img src="img/wish1.jpg" alt="cart"></a></td>
+                                        <td class="product_des">
+                                            <h3>test1</h3>
+                                        </td>
+                                        <td class="u_price">&#3647;135.99</td>
+                                        <td class="p_quantity">
+                                            <div class="pp_quantity">
+                                                <span> 03</span>
+                                            </div>
+                                        </td>
+                                        <td class="p_value">&#3647;135.99</td>
+                                        <td class="p_cart">
+                                            <a href="#" class="add">Add To Cart</a>
+                                            <a href="#"><p>EDIT</p></a>
+                                            <i class="fa fa-times"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="product_img single_slider_bottom"><a href="#"><img src="img/wish2.jpg" alt="cart"></a></td>
+                                        <td class="product_des">
+                                            <h3>test2</h3>
+                                        </td>
+                                        <td class="u_price">&#3647;65.25</td>
+                                        <td class="p_quantity">
+                                            <div class="pp_quantity">
+                                                <span> 01</span>
+                                            </div>
+                                        </td>
+                                        <td class="p_value">&#3647;65.25</td>
+                                        <td class="p_cart">
+                                            <a href="#" class="add">Add To Cart</a>
+                                            <a href="#"><p>EDIT</p></a>
+                                            <i class="fa fa-times"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="product_img single_slider_bottom"><a href="#"><img src="img/wish3.png" alt="cart"></a></td>
+                                        <td class="product_des">
+                                            <h3>test3</h3>
+                                        </td>
+                                        <td class="u_price">&#3647;85.00</td>
+                                        <td class="p_quantity">
+                                            <div class="pp_quantity">
+                                                <span> 01</span>
+                                            </div>
+                                        </td>
+                                        <td class="p_value">&#3647;85.00</td>
+                                        <td class="p_cart">
+                                            <a href="#" class="add">Add To Cart</a>
+                                            <a href="#"><p>EDIT</p></a>
+                                            <i class="fa fa-times"></i>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- register end -->
+            </div>                     
+        </div>                
+        <!-- cart area end -->
         <!-- footer start -->
         <footer class="footer_area">
             <div class="footer_top_area text-center">
@@ -431,26 +460,25 @@
             </div>
         </footer>
         <!-- footer end -->
-
         
         <!-- JS -->
         
-		<!-- jquery-1.11.3.min js
+ 		<!-- jquery-1.11.3.min js
 		============================================ -->         
         <script src="js/vendor/jquery-1.12.4.min.js"></script>
         
-		<!-- bootstrap js
+ 		<!-- bootstrap js
 		============================================ -->         
-        <script src="js/popper.min.js"></script>        
+        <script src="js/popper.min.js"></script>       
         <script src="js/bootstrap.min.js"></script>
-          
-		<!-- lightbox js
-		============================================ -->       
-        <script src="js/lightbox.js"></script>
         
-		<!-- owl.carousel.min js
+   		<!-- owl.carousel.min js
 		============================================ -->       
         <script src="js/owl.carousel.min.js"></script>
+        
+   		<!-- lightbox js
+		============================================ -->       
+        <script src="js/lightbox.js"></script>
           
         <!-- mixitup js
 		============================================ -->       
